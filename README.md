@@ -1,5 +1,6 @@
 # Apriori_for_ARM
 Implementation of Association Rule Mining using Apriori Algorithm  
+
 The most important aspect of this assignment was to understand there may be a huge difference between what a paper claims and the real implementation. Not only the differences originate from the algorithm, but also from the data structure that is used in the implementation.
 
 ### Hardware and Software Specifications:
