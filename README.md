@@ -1,6 +1,6 @@
 # Apriori_for_ARM
 
-The most important aspect of this assignment was to understand there may be a huge difference between what a paper claims and the real implementation about the execution time. Not only the differences originate from the algorithm, but also from the data structure that we use in the implementation.
+The most important aspect of this assignment was to understand there may be a huge difference between what a paper claims and our implementation of that regarding the execution time. Not only the differences originate from the algorithm, but also from the data structure that we use in the implementation.
 
 ### Hardware and Software Specifications:
 I compiled this code in Ubuntu 18.04 (64-bit version) using GCC version 7.3.0 and I had Intel i5-8500 CPU.
