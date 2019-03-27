@@ -11,7 +11,7 @@ g++ -std=c++17 -O2 AprioriImplementation.cpp
 
 4. This is a brief report of measures and run times for each of the three scenarios I executed the code:
 
-/* results for ~10K transactions
+/* results for \~10K transactions
 9949 transactions, 488 different items, run time =~ 12.74 seconds.
 (472, 24085, 8049, 3786, 2329, 1115, 407, 111, 21, 2) : from 1 to 10 frequent itemsets.
 There are 161856 strong association rules overall.
