@@ -1,17 +1,17 @@
 # Apriori_for_ARM
 Implementation of Association Rule Mining using Apriori Algorithm
 
-## Hardware and Software Specifications:
+### Hardware and Software Specifications:
 I compiled this code in Ubuntu 18.04 (64-bit version) using GCC version 7.3.0 and I had Intel i5-8500 CPU.
 You may see different execution times using different OS, compiler, or hardware.
 
-## To compile the code, use this line in the terminal:
+### To compile the code, use this line in the terminal:
 g++ -std=c++17 -O2 AprioriImplementation.cpp
 
-## to run the code and see all details (with proper dataset file and support value):
+### to run the code and see all details (with proper dataset file and support value):
 ./a.out 10Kdataset.txt 0.001 0.8
 
-## This is a brief report of measures and run times for each of the three scenarios I executed the code:
+### This is a brief report of measures and run times for each of the three scenarios I executed the code:
 
 /* results for \~10K transactions
 9949 transactions, 488 different items, run time =~ 12.74 seconds.
