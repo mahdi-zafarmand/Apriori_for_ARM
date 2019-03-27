@@ -1,9 +1,10 @@
 # Apriori_for_ARM
 Implementation of Association Rule Mining using Apriori Algorithm
 
-1. I compiled this code in Ubuntu 18.04 (64-bit version) using GCC version 7.3.0.
+1. I compiled this code in Ubuntu 18.04 (64-bit version) using GCC version 7.3.0 and I had Intel i5-8500 CPU.
+You may see different execution times using different OS, compiler, or hardware.
 
-2. To compile the code use this line in the terminal:
+2. To compile the code, use this line in the terminal:
 g++ -std=c++17 -O2 AprioriImplementation.cpp
 
 3. to run the code and see all details (with proper dataset file and support value):
