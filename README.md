@@ -1,5 +1,5 @@
 # Apriori_for_ARM
-Implementation of Association Rule Mining using Apriori Algorithm  
+Fast implementation of association rule mining using apriori algorithm (without parallelization)   
 
 The most important aspect of this assignment was to understand there may be a huge difference between what a paper claims and the real implementation about the execution time. Not only the differences originate from the algorithm, but also from the data structure that we use in the implementation.
 
