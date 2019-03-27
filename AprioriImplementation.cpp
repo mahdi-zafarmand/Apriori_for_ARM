@@ -38,6 +38,10 @@ public:
         cout << "There are " << numOfTransactions << " lines of transactions in this database." << endl;
         cout << "There are " << itemsCounter->size() << " different items in this database." << endl;
     }
+    ~Database() {
+		delete dataSet;
+		delete itemsCounter;
+	}
     int getNumOfTransactions() { return numOfTransactions;}
     ItemsCounter* getItemsCounter() { return itemsCounter;}
     DataSet* getDataSet() { return dataSet;}
@@ -91,7 +95,7 @@ public:
 };
 
 class RuleFinder {
-// this class is implemented to find strong association rules based on a given frequent item sets.
+// this class is implemented to find strong association rules based on a given set of frequent item sets.
 
 private:
     Apriori* aprioriSolver;
