@@ -41,7 +41,7 @@ public:
     ~Database() {
 		delete dataSet;
 		delete itemsCounter;
-	}
+    }
     int getNumOfTransactions() { return numOfTransactions;}
     ItemsCounter* getItemsCounter() { return itemsCounter;}
     DataSet* getDataSet() { return dataSet;}
