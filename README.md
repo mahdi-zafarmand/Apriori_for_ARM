@@ -35,7 +35,7 @@ There is no strong association rules in this case.
 ** To my knowledge, "-O3" is not as stable and consistent as "-O2", also there
    may be some problems if you compile the code with another version of g++. I
    have seen cases (on a computer with different version of GCC) with some 
-   problems to generate all the strong association rules.
+   problems generating all the strong association rules.
 
 ** This code is designed in a way that can handle databases with .txt and .csv
    format (I need to evaluate my code using .csv files, so I add supporting of
