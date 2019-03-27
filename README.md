@@ -8,7 +8,7 @@ You may see different execution times using different OS, compiler, or hardware.
 ### To compile the code, use this line in the terminal:
 g++ -std=c++17 -O2 AprioriImplementation.cpp
 
-### to run the code and see all details (with proper dataset file and support value):
+### to run the code and see all details (with proper dataset file, support and value):
 ./a.out 10Kdataset.txt 0.001 0.8
 
 ### This is a brief report of measures and run times for each of the three scenarios I executed the code:
