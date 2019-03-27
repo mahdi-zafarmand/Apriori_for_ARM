@@ -12,7 +12,7 @@ g++ -std=c++17 -O2 AprioriImplementation.cpp
 ### To run the code and see all details (with proper dataset file, support and value):
 ./a.out 10Kdataset.txt 0.001 0.8
 
-### This is a brief report of measures and run times for each of the three scenarios I executed the code:
+### This is a brief report of measures and run times for each of the three datasets:
 
 #### Results for \~10K transactions:
 9949 transactions, 488 different items, run time =~ 12.74 seconds.  
