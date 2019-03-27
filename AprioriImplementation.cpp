@@ -39,8 +39,8 @@ public:
         cout << "There are " << itemsCounter->size() << " different items in this database." << endl;
     }
     ~Database() {
-		delete dataSet;
-		delete itemsCounter;
+	delete dataSet;
+	delete itemsCounter;
     }
     int getNumOfTransactions() { return numOfTransactions;}
     ItemsCounter* getItemsCounter() { return itemsCounter;}
