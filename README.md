@@ -22,7 +22,7 @@ There are 161856 strong association rules overall.
 
 #### Results for 1K transactions:
 1000 transactions, 475 different items, run time =~ 0.11 seconds.  
-number of 1 to 2 frequent itemsets:(334, 174)  
+number of 1 to 2 frequent itemsets: (334, 174)  
 There is no strong association rules in this case.
 
 
