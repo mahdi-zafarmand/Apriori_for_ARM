@@ -9,24 +9,24 @@ You may see different execution times using different OS, compiler, or hardware.
 ### To compile the code, use this line in the terminal:
 g++ -std=c++17 -O2 AprioriImplementation.cpp
 
-### to run the code and see all details (with proper dataset file, support and value):
+### To run the code and see all details (with proper dataset file, support and value):
 ./a.out 10Kdataset.txt 0.001 0.8
 
 ### This is a brief report of measures and run times for each of the three scenarios I executed the code:
 
-#### results for \~10K transactions:
+#### Results for \~10K transactions:
 9949 transactions, 488 different items, run time =~ 12.74 seconds.  
 number of 1 to 10 frequent itemsets: (472, 24085, 8049, 3786, 2329, 1115, 407, 111, 21, 2)  
 There are 161856 strong association rules overall.
 
 
-#### results for 1K transactions:
+#### Results for 1K transactions:
 1000 transactions, 475 different items, run time =~ 0.11 seconds.  
 number of 1 to 2 frequent itemsets:(334, 174)  
 There is no strong association rules in this case.
 
 
-#### results for 100 transactions:
+#### Results for 100 transactions:
 100 transactions, 366 different items, run time =~ 0.00 seconds.  
 number of 1 frequent itemsets: (10)  
 There is no strong association rules in this case.
