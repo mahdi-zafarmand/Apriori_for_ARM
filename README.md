@@ -14,19 +14,19 @@ g++ -std=c++17 -O2 AprioriImplementation.cpp
 
 ### This is a brief report of measures and run times for each of the three datasets:
 
-#### Results for \~10K transactions:
+#### Results for \~10K transactions (10 item for min_sup, and 80% of conf):
 9949 transactions, 488 different items, run time =~ 12.74 seconds.  
 number of 1 to 10 frequent itemsets: (472, 24085, 8049, 3786, 2329, 1115, 407, 111, 21, 2)  
 There are 161856 strong association rules overall.
 
 
-#### Results for 1K transactions:
+#### Results for 1K transactions (10 item for min_sup, and 80% of conf):
 1000 transactions, 475 different items, run time =~ 0.11 seconds.  
 number of 1 to 2 frequent itemsets: (334, 174)  
 There is no strong association rules in this case.
 
 
-#### Results for 100 transactions:
+#### Results for 100 transactions (10 item for min_sup, and 80% of conf):
 100 transactions, 366 different items, run time =~ 0.00 seconds.  
 number of 1 frequent itemsets: (10)  
 There is no strong association rules in this case.
